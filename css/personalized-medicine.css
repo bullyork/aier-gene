@@ -1,0 +1,192 @@
+.personalized-medicine-nav {
+  width: 950px;
+}
+.personalized-medicine-nav ul{
+  width: 100%;
+}
+.personalized-medicine-nav li {
+  margin-bottom: 2px;
+  width: 905px;
+  background: #626262;
+  line-height: 50px;
+  font-size: 17px;
+  padding-left: 45px;
+}
+.personalized-medicine-nav li a{
+  color: white;
+}
+.personalized-medicine-nav li:hover{
+  background: #33e1b2;
+}
+
+.personalized-character {
+  width: 950px;
+  margin-top: 30px;
+  overflow: auto;
+  zoom: 1;
+}
+.personalized-character .left {
+  float: left;
+  width: 410px;
+}
+.personalized-character .right {
+  float: right;
+  width: 410px;
+}
+.personalized-character .item {
+  margin-bottom: 30px;
+  width: 100%;
+}
+.personalized-character .item .title {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  color: #00d99f;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #969696;
+}
+.personalized-character .item .des {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  color: #535353;
+  margin-top: 10px;
+  line-height: 2;
+}
+.detect-advantage .points {
+  margin-bottom: 55px;
+  height: 236px;
+}
+.detect-advantage .point {
+  width: 220px;
+  margin-right: 2px;
+  height: 198px;
+  background: #00d99f;
+  float: left;
+  color: white;
+  padding: 38px 8px 0 8px;
+}
+.detect-advantage .point:last-child {
+  margin-right: 0;
+}
+.detect-advantage .point .title {
+  font-size: 29px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.detect-advantage .point .des {
+  font-size: 16px;
+  line-height: 2;
+}
+.advantage-detail .line{
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.advantage-detail .line .title{
+  display: inline-block;
+  font-size: 21px;
+  padding-right: 10px;
+  border-right: 3px solid #00d99f;
+  margin-right: 10px;
+}
+.detect-advantage .another-points {
+  margin-bottom: 55px;
+  height: 352px;
+}
+.detect-advantage .another-point {
+  width: 310px;
+  margin-right: 10px;
+  height: 100%;
+  background: #7ecef4;
+  float: left;
+  color: white;
+}
+.detect-advantage .another-point:last-child {
+  margin-right: 0;
+}
+.detect-advantage .another-point .img img {
+  width: 100%;
+}
+.detect-advantage .another-point .content {
+  padding: 15px;
+}
+.detect-advantage .another-point .title {
+  font-size: 21px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+.detect-advantage .another-point .des {
+  font-size: 16px;
+  line-height: 2;
+}
+.personalized-case-analysis {
+  margin-bottom: 25px;
+}
+.personalized-case-analysis table {
+  border: 0;
+  border-spacing: 0;
+}
+.personalized-case-analysis table .title {
+  background: #00d99f;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 38px;
+  width: 336px;
+  color: white;
+}
+.personalized-case-analysis table .content{
+  padding: 16px 72px 16px 62px;
+  line-height: 2;
+  background: #eeeeee;
+}
+.personalized-detect-content {
+  margin-bottom: 25px;
+}
+.personalized-detect-content table {
+  border: 0;
+  border-spacing: 1px;
+  width: 100%;
+}
+.personalized-detect-content table th {
+  background: #00d99f;
+  text-align: center;
+  font-size: 21px;
+  height: 42px;
+  color: white;
+  font-weight: normal;
+}
+.personalized-detect-content table td {
+  background: #eee;
+  text-align: center;
+  height: 42px;
+}
+.high-risk {
+  list-style-image:url("../img/disc.png");
+  list-style-type:square;
+  padding-left: 35px;
+}
+.high-risk li {
+  padding-left: 12px;
+  line-height: 2;
+}
+.strength1 {
+  color: #00d99f;
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.strength2 {
+  height: 110px;
+  line-height: 110px!important;
+}
+.strength2 .big-letter {
+  display: inline-block;
+  height: 100%;
+  width: 110px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 33px;
+  background: #00d99f;
+  color: white;
+  margin-right: 10px;
+}

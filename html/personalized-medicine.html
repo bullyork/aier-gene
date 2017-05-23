@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>个性化医疗·用药安全</title>
+  <link rel="shortcut icon" href="../img/aier-gene.ico">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/personalized-medicine.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="../img/logo.png" width="140" alt="爱尔基因">
+    </div>
+    <ul class="nav">
+      <li>
+        <a href="../index.html">首页</a>
+      </li>
+      <li>
+        <a href="./child-gene-card.html">儿童基因ID卡</a>
+      </li>
+      <li class="active">
+        <a href="./personalized-medicine.html">个性化医疗</a>
+      </li>
+      <li>
+        <a href="./talent-geng-detect.html">天赋基因检测</a>
+      </li>
+      <li>
+        <a href="./judicial-expertise.html">司法鉴定</a>
+      </li>
+      <li>
+        <a href="./about.html">关于我们</a>
+      </li>
+    </ul>
+  </header>
+  <div class="banner">
+    <div class="left">
+      个性化医疗·用药安全
+    </div>
+    <div class="right">
+      <img src="../img/personalized-medicine.jpg" alt="爱尔基因">
+    </div>  
+  </div>
+  <section class="main">
+    <div class="chapter">
+      <h1><span>个性化医疗·用药安全</span></h1>
+      <p>
+        药物品种在随着医药科学的发展而迅速增加，现在国内常用的处方药物已达7000种之多。所以安全用药基因检测服务有助于提高药物治疗的有效率，提高合理用药的水平。安全用药基因检测服务，即是针对与药物反应相关的基因密码进行解读，预测患者对于不同药物的不良反应程度，对临床用药起到一定的指导作用。
+      </p>
+    </div>
+    <div class="personalized-medicine-nav">
+      <ul>
+        <li>
+          <a href="personalized-medicine1.html">酒精代谢相关基因</a>
+        </li>
+        <li>
+          <a href="personalized-medicine2.html">耳聋基因筛查</a>
+        </li>
+        <li>
+          <a href="personalized-medicine3.html">肺癌精准用药基因检测</a>
+        </li>
+        <li>
+          <a href="personalized-medicine4.html">高血压个性化药物基因检测</a>
+        </li>
+        <li>
+          <a href="personalized-medicine5.html">高血脂个性化药物基因检测</a>
+        </li>
+        <li>
+          <a href="personalized-medicine6.html">冠心病个性化药物基因检测</a>
+        </li>
+        <li>
+          <a href="personalized-medicine7.html">结直肠癌精准用药基因检测</a>
+        </li>
+        <li>
+          <a href="personalized-medicine8.html">抗血小板凝集药（氯吡格雷）基因多态性检测</a>
+        </li>
+        <li>
+          <a href="personalized-medicine9.html">男性不育Y染色体微缺失检测</a>
+        </li>
+        <li>
+          <a href="personalized-medicine10.html">乳腺癌21基因检测</a>
+        </li>
+        <li>
+          <a href="personalized-medicine11.html">乳腺癌BRCA基因检测</a>
+        </li>
+        <li>
+          <a href="personalized-medicine12.html">糖尿病个性化药物基因检测</a>
+        </li>
+        <li>
+          <a href="personalized-medicine13.html">遗传性智能障碍疾病脆性X综合征筛查</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    <div class="logo-container">
+      <img src="../img/bottom-logo.png" width="294" alt="爱尔基因">
+    </div>
+    <div class="container">
+      <div class="content">
+        <div class="top">
+          <ul class="nav">
+            <li>
+              <a href="../index.html">首页</a>
+            </li>
+            <li>
+              <a href="./child-gene-card.html">儿童基因ID卡</a>
+            </li>
+            <li>
+              <a href="./personalized-medicine.html">个性化医疗</a>
+            </li>
+            <li>
+              <a href="./talent-geng-detect.html">天赋基因检测</a>
+            </li>
+            <li>
+              <a href="./judicial-expertise.html">司法鉴定</a>
+            </li>
+            <li>
+              <a href="./about.html">关于我们</a>
+            </li>
+          </ul>
+        </div>
+        <div class="bottom">
+          <div class="title">
+            爱尔基因
+          </div>
+          <div class="refer">
+            AierDNA.com版权所有 沪ICP备16017711号-4
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="fixed">
+      <img src="../img/to-top.png" width="80" alt="爱尔基因">
+  </div>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="../js/jquery-smooth-scroll.js"></script>
+  <script>
+    $(window).scroll(function(){
+      var h = $(this).scrollTop()
+      if(h > 500){
+        $('.fixed').fadeIn()
+        return
+      }
+      if(h < 500){
+        $('.fixed').fadeOut()
+        return
+      }
+    })
+    $('.fixed img').click(function(){
+      $.smoothScroll(0);
+      return false;
+    })
+  </script>
+</body>
+</html>

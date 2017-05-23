@@ -13,26 +13,26 @@
 <body>
   <header>
     <div class="logo">
-      <img src="../img/logo.png" alt="爱尔基因">
+      <img src="../img/logo.png" width="140" alt="爱尔基因">
     </div>
     <ul class="nav">
       <li>
-        <a href="">首页</a>
+        <a href="../index.html">首页</a>
       </li>
       <li class="active">
-        <a href="">儿童基因ID卡</a>
+        <a href="./child-gene-card.html">儿童基因ID卡</a>
       </li>
       <li>
-        <a href="">个性化医疗</a>
+        <a href="./personalized-medicine.html">个性化医疗</a>
       </li>
       <li>
-        <a href="">天赋基因检测</a>
+        <a href="./talent-geng-detect.html">天赋基因检测</a>
       </li>
       <li>
-        <a href="">司法鉴定</a>
+        <a href="./judicial-expertise.html">司法鉴定</a>
       </li>
       <li>
-        <a href="">关于我们</a>
+        <a href="./about.html">关于我们</a>
       </li>
     </ul>
   </header>
@@ -41,34 +41,62 @@
       儿童基因ID卡
     </div>
     <div class="right">
-      <img src="../img/child-gene-card.jpg" alt="爱尔基因">
+      <img src="../img/child-gene-card.jpg"  alt="爱尔基因">
     </div>  
   </div>
+  <section class="main">
+    <div class="chapter">
+      <h1><span>解密儿童基因ID卡</span></h1>
+      <p>
+        儿童基因ID卡是使用DNA的短串联重复序列（Short Tandem Report）等检测技术建立的个人基因档案。每个人的基因是独一无二的，基因ID通过基因检测技术建立个人基因“标签”，可以实现高效精准的个体身份识别，从而提升儿童寻回的效率和成功率。这些结果可以为消防员、警察、矿工等高危职业人群及易走失的学龄前儿童建立基因档案数据库。
+      </p>
+    </div>
+    <div class="application">
+      <div class="circle">
+        搜救
+      </div>
+      <div class="circle">
+        身份辨认
+      </div>
+      <div class="circle">
+        打击拐卖
+      </div>
+    </div>
+    <div class="chapter">
+      <h1><span>基因采集</span></h1>
+      <p>
+        基因采集的方法除采血外提取基因样本还可以采用提取口腔黏膜细胞的方法和唾液采集。唾液采样检测法是目前新出现的一种基因采集的方式，此方法更加方便快捷，并且实现无创采集，检测效果和提取口腔黏膜检测效果一样。
+      </p>
+      <p>
+        <img src="../img/gene-collect-flow.png" width="950" alt="爱尔基因">
+      </p>
+    </div>
+  </section>
   <footer>
     <div class="logo-container">
-      <img src="../img/bottom-logo.png" alt="爱尔基因">
+      <img src="../img/bottom-logo.png" width="294" alt="爱尔基因">
     </div>
     <div class="container">
       <div class="content">
         <div class="top">
           <ul class="nav">
             <li>
-              <a href="">首页</a>
+              <a href="../index.html">首页</a>
             </li>
             <li>
-              <a href="">儿童基因ID卡</a>
+              <a href="./child-gene-card.html">儿童基因ID卡</a>
             </li>
             <li>
-              <a href="">个性化医疗</a>
+              <a href="./personalized-medicine.html">个性化医疗</a>
             </li>
             <li>
-              <a href="">天赋基因检测</a>
+              <a href="./talent-geng-detect.html">天赋基因检测</a>
             </li>
             <li>
-              <a href="">司法鉴定</a>
+              <a href="./judicial-expertise.html">司法鉴定</a>
             </li>
             <li>
-              <a href="">关于我们</a>
+              <a href="./about.html">关于我们</a>
             </li>
           </ul>
         </div>
@@ -83,7 +111,27 @@
       </div>
     </div>
   </footer>
+  <div class="fixed">
+      <img src="../img/to-top.png" width="80" alt="爱尔基因">
+  </div>
   <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
   <script src="../js/jquery-smooth-scroll.js"></script>
+  <script>
+    $(window).scroll(function(){
+      var h = $(this).scrollTop()
+      if(h > 500){
+        $('.fixed').fadeIn()
+        return
+      }
+      if(h < 500){
+        $('.fixed').fadeOut()
+        return
+      }
+    })
+    $('.fixed img').click(function(){
+      $.smoothScroll(0);
+      return false;
+    })
+  </script>
 </body>
 </html>
