@@ -117,11 +117,12 @@ section.main {
   width: 950px;
   margin-bottom: 125px;
 }
-section.main .chapter {
-  margin-top: 45px;
+.chapter {
+  padding-top: 45px;
   font-size: 17px;
+  width: 950px;
 }
-section.main .chapter h1 {
+.chapter h1 {
   text-align:  center;
   font-size: 25px;
   color: #626262;
@@ -129,12 +130,12 @@ section.main .chapter h1 {
   margin-top: 0;
   margin-bottom: 25px;
 }
-section.main .chapter h1 span {
+.chapter h1 span {
   display: inline-block;
   border-bottom: 5px solid #00d99f;
   padding-bottom: 3px;
 }
-section.main .chapter p {
+.chapter p {
   line-height: 2;
   margin-bottom: 25px;
 }
@@ -160,7 +161,7 @@ section.main .chapter p {
   color: #00d99f;
 }
 .chapter .img-container {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   text-align: center;
 }
 .chapter .img-container img {

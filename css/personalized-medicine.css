@@ -190,3 +190,69 @@
   color: white;
   margin-right: 10px;
 }
+.child-gene-all {
+  overflow: auto;
+  zoom: 1;
+}
+.child-gene-all .item{
+  width: 300px;
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+.child-gene-all .nomargin{
+  margin-right: 0;
+}
+.child-gene-all .item .title {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background: #00d99f;
+  line-height: 62px;
+}
+.child-gene-all .item .content {
+  color: #434343;
+  padding: 20px;
+  line-height: 2;
+  height: 143px;
+  background: #eee;
+  font-size: 16px;
+}
+.home-collect {
+  height: 275px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+.home-collect .left {
+  float: left;
+}
+.home-collect .right {
+  float: right;
+}
+.home-collect .item {
+  width: 370px;
+  border-radius: 30px;
+  border: 3px solid #00d99f;
+  padding: 20px;
+  height: 228px;
+}
+.home-collect .item .title{
+  border-bottom: 3px solid #00d99f;
+  padding-bottom: 10px;
+  font-size: 28px;
+  text-align: center;
+  color: #00d99f;
+}
+.home-collect .item .content {
+  font-size: 20px;
+  color: #434343;
+  padding: 40px;
+  line-height: 2;
+}
+.judicial-brown li{
+  background: #eeeeee;
+  margin-bottom: 1px;
+  font-size: #626262;
+  text-align: center;
+  line-height: 44px;
+}

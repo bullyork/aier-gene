@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>法庭科学·司法鉴定</title>
+  <link rel="shortcut icon" href="../img/aier-gene.ico">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/personalized-medicine.css">
+  <meta content="爱尔基因" name="keywords">
+  <meta content="爱尔基因" name="description">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="../img/logo.png" width="140" alt="爱尔基因">
+    </div>
+    <ul class="nav">
+      <li>
+        <a href="../index.html">首页</a>
+      </li>
+      <li>
+        <a href="./child-gene-card.html">儿童基因ID卡</a>
+      </li>
+      <li>
+        <a href="./personalized-medicine.html">个性化医疗</a>
+      </li>
+      <li>
+        <a href="./talent-geng-detect.html">天赋基因检测</a>
+      </li>
+      <li class="active">
+        <a href="./judicial-expertise.html">司法鉴定</a>
+      </li>
+      <li>
+        <a href="./about.html">关于我们</a>
+      </li>
+    </ul>
+  </header>
+  <div class="banner">
+    <div class="left">
+      法庭科学·司法鉴定
+    </div>
+    <div class="right">
+      <img src="../img/judicial-expertise.jpg" width="739" alt="爱尔基因">
+    </div>  
+  </div>
+  <section class="main">
+    <div class="chapter">
+      <h1><span>法庭科学·司法鉴定</span></h1>
+      <p>
+        亦可称为生物物证，是指以机体某种组织、毛发、血液或其他体液作为检材和样本，运用免疫学、生物学、生物化学、分子生物学等的理论和方法，利用遗传学标记系统的多态性对生物学检材的种类种属及个体来源进行鉴定。其主要内容包括：个体识别、亲子鉴定、性别鉴定、种族和种属认定等。DNA亲子鉴定技术（也称父子鉴定）极大地推进了亲权鉴定，它以DNA作为遗传标记来判断“父亲”或“母亲”与子女是否存在亲生关系。
+      </p>
+    </div>
+    <div class="personalized-medicine-nav">
+      <ul>
+        <li>
+          <a href="judicial-expertise1.html">家庭亲子鉴定（全程匿名）</a>
+        </li>
+        <li>
+          <a href="judicial-expertise2.html">司法亲子鉴定</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    <div class="logo-container">
+      <img src="../img/bottom-logo.png" width="294" alt="爱尔基因">
+    </div>
+    <div class="container">
+      <div class="content">
+        <div class="top">
+          <ul class="nav">
+            <li>
+              <a href="../index.html">首页</a>
+            </li>
+            <li>
+              <a href="./child-gene-card.html">儿童基因ID卡</a>
+            </li>
+            <li>
+              <a href="./personalized-medicine.html">个性化医疗</a>
+            </li>
+            <li>
+              <a href="./talent-geng-detect.html">天赋基因检测</a>
+            </li>
+            <li>
+              <a href="./judicial-expertise.html">司法鉴定</a>
+            </li>
+            <li>
+              <a href="./about.html">关于我们</a>
+            </li>
+          </ul>
+        </div>
+        <div class="bottom">
+          <div class="title">
+            爱尔基因
+          </div>
+          <div class="refer">
+            AierDNA.com版权所有 沪ICP备16017711号-4
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="fixed">
+      <img src="../img/to-top.png" width="80" alt="爱尔基因">
+  </div>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="../js/jquery-smooth-scroll.js"></script>
+  <script>
+    $(window).scroll(function(){
+      var h = $(this).scrollTop()
+      if(h > 500){
+        $('.fixed').fadeIn()
+        return
+      }
+      if(h < 500){
+        $('.fixed').fadeOut()
+        return
+      }
+    })
+    $('.fixed img').click(function(){
+      $.smoothScroll(0);
+      return false;
+    })
+  </script>
+</body>
+</html>

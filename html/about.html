@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>爱尔基因-关于我们</title>
+  <link rel="shortcut icon" href="../img/aier-gene.ico">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/child-gene-card.css">
+  <meta content="爱尔基因" name="keywords">
+  <meta content="爱尔基因" name="description">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="../img/logo.png" width="140" alt="爱尔基因">
+    </div>
+    <ul class="nav">
+      <li>
+        <a href="../index.html">首页</a>
+      </li>
+      <li>
+        <a href="./child-gene-card.html">儿童基因ID卡</a>
+      </li>
+      <li>
+        <a href="./personalized-medicine.html">个性化医疗</a>
+      </li>
+      <li>
+        <a href="./talent-geng-detect.html">天赋基因检测</a>
+      </li>
+      <li>
+        <a href="./judicial-expertise.html">司法鉴定</a>
+      </li>
+      <li class="active">
+        <a href="./about.html">关于我们</a>
+      </li>
+    </ul>
+  </header>
+  <div class="banner">
+    <div class="left">
+      关于我们
+    </div>
+    <div class="right">
+      <img src="../img/about.jpg" width="739"  alt="爱尔基因">
+    </div>  
+  </div>
+  <section class="main">
+    <div class="chapter">
+      <h1><span>关于爱尔基因</span></h1>
+      <p>
+        爱尔基因是由国内外多名从事基因研究领域的专业人士发起创办，致力于基因检测领域的技术和产品开发。爱尔基因坚持产业报国的理念，以技术创新为基础，为法医和科研领域提供高品质的基因检测产品及服务。<br>
+        爱尔基因拥有一支理论和实践经验丰富的研发队伍，建立了基于一代测序、高通量测序和荧光定量PCR技术的检测平台。为广大用户提供检测，分析，解读为一体的完善的基因检测服务。
+      </p>
+    </div>
+    <div class="chapter">
+      <h1><span>隐私声明</span></h1>
+      <p>
+        1.个人数据的收集和处理<br>
+        我们相信您提交您的基因数据，是为了更好的得到个人健康信息，疾病特征以及其他相关的信息内容的呈现，所以在没有得到您的允许之前，您的基因数据和个人资料信息将会按照最严格的方式保存和保密，不对任何人开放。<br>
+        2.个人数据的使用和披露<br>
+        爱尔基因可将您的个人数据用于基因相关的数据挖掘，用于您的基因报告的更新和推送，除此之外，我们 不会主动泄露您的数据给任何第三方机构和个人。<br>
+        3.安全性<br>
+        爱尔基因采用一切合理的技术和组织安全措施来保护我们所控制的数据不被意外或故意地操纵、丢失、损毁或被擅自存取。<br>
+        我们承诺保护您的隐私，因为我们尊重我们每个用户。我们尽最大努力去做好，并希望为此能赢得您的信任！
+      </p>
+    </div>
+    <div class="chapter">
+      <h1><span>联系我们</span></h1>
+      <p style="text-align:center">bd@yihuidata.com</p>
+    </div>
+  </section>
+  <footer>
+    <div class="logo-container">
+      <img src="../img/bottom-logo.png" width="294" alt="爱尔基因">
+    </div>
+    <div class="container">
+      <div class="content">
+        <div class="top">
+          <ul class="nav">
+            <li>
+              <a href="../index.html">首页</a>
+            </li>
+            <li>
+              <a href="./child-gene-card.html">儿童基因ID卡</a>
+            </li>
+            <li>
+              <a href="./personalized-medicine.html">个性化医疗</a>
+            </li>
+            <li>
+              <a href="./talent-geng-detect.html">天赋基因检测</a>
+            </li>
+            <li>
+              <a href="./judicial-expertise.html">司法鉴定</a>
+            </li>
+            <li>
+              <a href="./about.html">关于我们</a>
+            </li>
+          </ul>
+        </div>
+        <div class="bottom">
+          <div class="title">
+            爱尔基因
+          </div>
+          <div class="refer">
+            AierDNA.com版权所有 沪ICP备16017711号-4
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="fixed">
+      <img src="../img/to-top.png" width="80" alt="爱尔基因">
+  </div>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="../js/jquery-smooth-scroll.js"></script>
+  <script>
+    $(window).scroll(function(){
+      var h = $(this).scrollTop()
+      if(h > 500){
+        $('.fixed').fadeIn()
+        return
+      }
+      if(h < 500){
+        $('.fixed').fadeOut()
+        return
+      }
+    })
+    $('.fixed img').click(function(){
+      $.smoothScroll(0);
+      return false;
+    })
+  </script>
+</body>
+</html>

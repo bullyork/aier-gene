@@ -1,0 +1,65 @@
+.homepage {
+  width: 1200px;
+}
+.swiper-container img {
+  width: 100%;
+}
+.service {
+  width: 1200px;
+  padding-top: 65px;
+  padding-bottom: 103px;
+}
+.service .title {
+  text-align: center;
+  font-size: 25px;
+  color: #626262;
+  margin-bottom: 50px;
+}
+.service .circle-des {
+  height: 130px;
+  width: 720px;
+}
+.service .circle-des .circle {
+  width: 180px;
+  float: left;
+}
+.service .circle-des .circle:last-child{
+  margin-right: 0;
+}
+.service .circle-des .circle .content {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 15px;
+  color: #626262;
+}
+.service .circle-des .circle .icon {
+  text-align: center;
+}
+.homepage-gene {
+  height: 530px;
+  margin-bottom: 45px;
+}
+.homepage-gene .homepage-gene-des {
+  float: left;
+  margin-right: 4px;
+  width: 314px;
+}
+.homepage-gene .homepage-gene-des:last-child {
+  margin-right: 0;
+}
+.homepage-gene-des .title {
+  height: 314px;
+  line-height: 314px;
+  text-align: center;
+  font-size: 29px;
+  color: white;
+}
+.homepage-gene-des .content {
+  padding: 10px;
+  line-height: 2;
+}
+.brown {
+  width: 1200px;
+  background: #eee;
+  padding-bottom: 75px;
+}
